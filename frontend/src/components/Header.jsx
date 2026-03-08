@@ -17,7 +17,7 @@ const Header = () => {
         <header className="fixed w-full top-0 z-50 bg-white/90 backdrop-blur-md shadow-sm border-b border-brand-yellow/30">
             <div className="container mx-auto px-4 py-4 flex justify-between items-center">
                 <Link to="/" className="flex items-center gap-2">
-                    <span className="text-2xl font-display font-bold text-brand-red">Nancy Muttai Kadai</span>
+                    <span className="text-2xl font-display font-bold text-brand-red">nancy mittai kadai</span>
                 </Link>
 
                 <nav className="hidden md:flex items-center gap-8 font-semibold text-gray-600">

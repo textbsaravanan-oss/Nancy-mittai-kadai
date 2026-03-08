@@ -1,0 +1,10 @@
+{
+    "name": "nancy-mittai-kadai",
+    "version": "1.0.0",
+    "description": "Fullstack deployment on Netlify",
+    "scripts": {
+        "install-deps": "cd frontend && npm install && cd ../backend && npm install",
+        "build": "npm run install-deps && cd frontend && npm run build"
+    },
+    "dependencies": {}
+}

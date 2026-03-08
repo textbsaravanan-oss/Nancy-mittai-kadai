@@ -1,7 +1,7 @@
 const WhatsAppButton = () => {
     // Replace with N. Balamurugan's number
     const phoneNumber = '919443571641';
-    const message = encodeURIComponent('Hi Nancy Muttai Kadai, I would like to place an order!');
+    const message = encodeURIComponent('Hi nancy mittai kadai, I would like to place an order!');
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
 
     return (

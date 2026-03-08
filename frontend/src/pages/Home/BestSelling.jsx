@@ -18,8 +18,8 @@ const BestSelling = () => {
             } catch {
                 // Fallback to hardcoded if API fails
                 setProducts([
-                    { _id: '1', name: '1rs Kadalai Muttai', price: 29, category: 'Kadalai Muttai', countInStock: 150 },
-                    { _id: '2', name: '5rs Koko Muttai', price: 42, category: 'Koko Muttai', countInStock: 100 },
+                    { _id: '1', name: '1rs Kadalai Mittai', price: 29, category: 'Kadalai Mittai', countInStock: 150 },
+                    { _id: '2', name: '5rs Koko Mittai', price: 42, category: 'Koko Mittai', countInStock: 100 },
                     { _id: '3', name: '90s Sweet Candy', price: 15, category: 'Traditional Candies', countInStock: 80 },
                     { _id: '4', name: 'Gift Pack Combo', price: 150, category: 'Gift Packs', countInStock: 50 },
                 ]);

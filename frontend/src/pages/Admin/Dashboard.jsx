@@ -49,8 +49,8 @@ const Dashboard = () => {
     ];
 
     const categoryData = [
-        { name: 'Kadalai Muttai', value: 400 },
-        { name: 'Koko Muttai', value: 300 },
+        { name: 'Kadalai Mittai', value: 400 },
+        { name: 'Koko Mittai', value: 300 },
         { name: 'Candies', value: 300 },
         { name: 'Gift Packs', value: 200 },
     ];
@@ -225,9 +225,9 @@ const Dashboard = () => {
                                         </td>
                                         <td className="px-6 py-4">
                                             <span className={`px-2.5 py-1 rounded-full text-xs font-medium ${order.orderStatus === 'Delivered' ? 'bg-green-100 text-green-700' :
-                                                    order.orderStatus === 'Shipped' ? 'bg-blue-100 text-blue-700' :
-                                                        order.orderStatus === 'Packed' ? 'bg-yellow-100 text-yellow-700' :
-                                                            'bg-gray-100 text-gray-700'
+                                                order.orderStatus === 'Shipped' ? 'bg-blue-100 text-blue-700' :
+                                                    order.orderStatus === 'Packed' ? 'bg-yellow-100 text-yellow-700' :
+                                                        'bg-gray-100 text-gray-700'
                                                 }`}>
                                                 {order.orderStatus || 'Pending'}
                                             </span>

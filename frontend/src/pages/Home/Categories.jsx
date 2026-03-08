@@ -28,8 +28,8 @@ const Categories = () => {
             } catch {
                 // fallback
                 setCats([
-                    { name: 'Kadalai Muttai', color: 'bg-brand-orange', emoji: '🥜' },
-                    { name: 'Koko Muttai', color: 'bg-brand-dark', emoji: '🍫' },
+                    { name: 'Kadalai Mittai', color: 'bg-brand-orange', emoji: '🥜' },
+                    { name: 'Koko Mittai', color: 'bg-brand-dark', emoji: '🍫' },
                     { name: 'Traditional Candies', color: 'bg-brand-pink', emoji: '🍬' },
                     { name: 'Gift Packs', color: 'bg-brand-red', emoji: '🎁' },
                 ]);

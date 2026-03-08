@@ -10,30 +10,30 @@ dotenv.config();
 connectDB();
 
 const generateProducts = () => {
-    const categories = ['Kadalai Muttai', 'Koko Muttai', 'Traditional Candies', 'Gift Packs'];
+    const categories = ['Kadalai Mittai', 'Koko Mittai', 'Traditional Candies', 'Gift Packs'];
     const products = [];
 
-    // Generate Kadalai Muttai variants
+    // Generate Kadalai Mittai variants
     const pricesKadalai = [1, 2, 5, 10];
     pricesKadalai.forEach((p, idx) => {
         products.push({
-            name: `${p}rs Kadalai Muttai`,
+            name: `${p}rs Kadalai Mittai`,
             image: `/images/kadalai_${p}rs.jpg`,
-            description: `Authentic traditional ${p}rs Kadalai Muttai made with pure standard jaggery and peanuts.`,
-            category: 'Kadalai Muttai',
+            description: `Authentic traditional ${p}rs Kadalai Mittai made with pure standard jaggery and peanuts.`,
+            category: 'Kadalai Mittai',
             price: p === 1 ? 29 : p === 2 ? 58 : p === 5 ? 42 : 44,
             countInStock: 100 + (idx * 10)
         });
     });
 
-    // Generate Koko Muttai variants
+    // Generate Koko Mittai variants
     const pricesKoko = [1, 2, 5, 10];
     pricesKoko.forEach((p, idx) => {
         products.push({
-            name: `${p}rs Koko Muttai`,
+            name: `${p}rs Koko Mittai`,
             image: `/images/koko_${p}rs.jpg`,
-            description: `Sweet and nostalgic ${p}rs Koko Muttai that brings back 90s memories.`,
-            category: 'Koko Muttai',
+            description: `Sweet and nostalgic ${p}rs Koko Mittai that brings back 90s memories.`,
+            category: 'Koko Mittai',
             price: p === 1 ? 29 : p === 2 ? 58 : p === 5 ? 42 : 44,
             countInStock: 150 + (idx * 10)
         });

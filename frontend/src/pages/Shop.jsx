@@ -41,7 +41,7 @@ const Shop = () => {
                 const { data } = await axios.get('/api/categories');
                 setCategories(['All', ...data.map(c => c.name)]);
             } catch {
-                setCategories(['All', 'Kadalai Muttai', 'Koko Muttai', 'Traditional Candies', 'Gift Packs']);
+                setCategories(['All', 'Kadalai Mittai', 'Koko Mittai', 'Traditional Candies', 'Gift Packs']);
             }
         };
         fetchCategories();
@@ -81,7 +81,7 @@ const Shop = () => {
                         Shop Our <span className="text-brand-yellow">Nostalgia</span>
                     </h1>
                     <p className="text-white/90 text-lg max-w-2xl mx-auto">
-                        Browse through traditional candies and muttais. Fresh and carefully packed.
+                        Browse through traditional candies and mittais. Fresh and carefully packed.
                     </p>
                 </div>
             </div>

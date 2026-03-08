@@ -24,7 +24,7 @@ app.use(cors());
 app.use(express.json());
 
 app.get('/', (req, res) => {
-    res.send('Nancy Muttai Kadai API is running...');
+    res.send('nancy mittai kadai API is running...');
 });
 
 app.use('/api/products', productRoutes);
@@ -38,6 +38,9 @@ if (paymentRoutes) app.use('/api/payment', paymentRoutes);
 app.use(notFound);
 app.use(errorHandler);
 
-const PORT = process.env.PORT || 5000;
+if (process.env.NODE_ENV !== 'production') {
+    const PORT = process.env.PORT || 5000;
+    app.listen(PORT, console.log(`Server running on port ${PORT}`));
+}
 
-app.listen(PORT, console.log(`Server running on port ${PORT}`));
+module.exports = app;

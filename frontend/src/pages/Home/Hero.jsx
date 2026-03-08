@@ -13,7 +13,7 @@ const Hero = () => {
                             <span className="text-brand-dark">90s Sweet Memories</span>
                         </h1>
                         <p className="text-xl text-gray-800 mb-8 font-medium">
-                            Authentic traditional Kadalai Muttai, Koko Muttai and classic candies delivered straight to your door.
+                            Authentic traditional Kadalai Mittai, Koko Mittai and classic candies delivered straight to your door.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
                             <Link to="/shop" className="btn-primary text-lg px-8 py-4">Shop Now</Link>
@@ -28,7 +28,7 @@ const Hero = () => {
 
                         <div className="bg-white p-4 rounded-3xl shadow-2xl transform rotate-2 hover:rotate-0 transition-transform duration-500 relative z-10 border-4 border-brand-pink/20">
                             <div className="aspect-square bg-gradient-to-tr from-brand-yellow to-brand-orange rounded-2xl flex items-center justify-center overflow-hidden">
-                                <h2 className="text-6xl font-display font-black text-white text-center transform -rotate-12 drop-shadow-lg">Nancy<br />Muttai<br />Kadai</h2>
+                                <h2 className="text-6xl font-display font-black text-white text-center transform -rotate-12 drop-shadow-lg">nancy<br />mittai<br />kadai</h2>
                             </div>
                         </div>
                     </div>

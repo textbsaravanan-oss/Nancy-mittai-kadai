@@ -3,7 +3,7 @@ const Footer = () => {
         <footer className="bg-brand-dark text-white pt-16 pb-8 border-t-4 border-brand-yellow">
             <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
                 <div>
-                    <h3 className="text-2xl font-display text-brand-yellow mb-4">Nancy Muttai Kadai</h3>
+                    <h3 className="text-2xl font-display text-brand-yellow mb-4">nancy mittai kadai</h3>
                     <p className="text-gray-400 mb-4 italic">"From Our Kadaai to Your Heart – Authentic Traditional Sweets"</p>
                 </div>
                 <div>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </div>
             </div>
             <div className="container mx-auto px-4 text-center mt-12 pt-8 border-t border-gray-700 text-gray-500">
-                <p>&copy; {new Date().getFullYear()} Nancy Muttai Kadai. All rights reserved.</p>
+                <p>&copy; {new Date().getFullYear()} nancy mittai kadai. All rights reserved.</p>
             </div>
         </footer>
     );
